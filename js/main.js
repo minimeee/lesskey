@@ -286,7 +286,6 @@ function result_hide() {
 
 function result_toggle() {
     var resncolor = document.getElementById('resn').style.fontFamily;
-    secret_hide();
     if (resncolor == black_color) {
         result_hide();
     } else {
@@ -312,7 +311,6 @@ function secret_hide() {
 
 function secret_toggle() {
     var sectype = document.getElementById('secret').type;
-    result_hide();
     if (sectype == "text") {
         secret_hide();
     }
